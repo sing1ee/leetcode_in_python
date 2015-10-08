@@ -26,4 +26,4 @@ class Solution(object):
             ret /= 26
         return rl
 if __name__ == '__main__':
-    print Solution().convertToTitle(2626)
+    print Solution().convertToTitle(1326)
