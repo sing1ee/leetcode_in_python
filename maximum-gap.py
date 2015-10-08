@@ -22,6 +22,7 @@ class Solution(object):
             num_strs = []
             for j in range(10):
                 num_strs.extend(buckets[j])
+            print num_strs
         num = [int(x[::-1]) for x in num_strs]
         max_gap = 0
         for x in range(len(num) - 1):
