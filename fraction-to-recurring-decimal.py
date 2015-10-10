@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import collections
-
 
 class Solution(object):
     def fractionToDecimal(self, numerator, denominator):
